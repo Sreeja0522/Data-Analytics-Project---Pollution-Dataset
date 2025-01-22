@@ -8,7 +8,7 @@ Through this project, I not only deepened my knowledge of machine learning but a
 
 **Tools Used:** R and Python.
 
-
+---
 **Table of Contents:**
 
 1)Introduction
@@ -21,10 +21,12 @@ Through this project, I not only deepened my knowledge of machine learning but a
 
 5)Result
 
+---
 # Introduction
 
 This is my capstone project showcasing my ability to analyze environmental data and provide actionable insights to improve air quality across regions. The primary goal of this project is to predict air quality levels based on various environmental and demographic factors such as temperature, humidity, pollutant concentrations, and proximity to industrial areas.
 
+---
 # Scenario
 
 The Environmental Protection Agency (EPA) is facing increasing challenges in managing air pollution across different regions of the country. The agency has been receiving complaints from citizens about poor air quality in certain urban and industrial areas, which is believed to be contributing to various health issues, including respiratory diseases. As part of its ongoing efforts to combat pollution, the EPA is working with local authorities to develop targeted interventions.
@@ -34,35 +36,40 @@ To make informed decisions, the EPA requires a data-driven approach that can pre
 Your task is to analyze a dataset that contains information on these factors across several regions, predict the air quality levels, and provide actionable recommendations. The goal is to help the EPA take proactive steps to mitigate pollution in the most affected areas and improve public health.
 This dataset focuses on air quality assessment across various regions.
 
-
+---
 # Dataset 
 
 The dataset contains 5000 samples and captures critical environmental and demographic factors that influence pollution levels.
 
 **Key Features:**
 
-Temperature (°C): Average temperature of the region.
+**Temperature (°C)**: Average temperature of the region.
 
-Humidity (%): Relative humidity recorded in the region.
+ **Humidity (%)**:  Relative humidity recorded in the region.
 
-PM2.5 Concentration (µg/m³): Fine particulate matter levels.
+ **PM2.5 Concentration (µg/m³)**:  Fine particulate matter levels.
 
-PM10 Concentration (µg/m³): Coarse particulate matter levels.
+ **PM10 Concentration (µg/m³)**:  Coarse particulate matter levels.
 
-NO2 Concentration (ppb): Nitrogen dioxide levels.
+ **NO2 Concentration (ppb)**:  Nitrogen dioxide levels.
 
-SO2 Concentration (ppb): Sulfur dioxide levels.
+ **SO2 Concentration (ppb)**:  Sulfur dioxide levels.
 
-CO Concentration (ppm): Carbon monoxide levels.
+ **CO Concentration (ppm)**:  Carbon monoxide levels.
 
-Proximity to Industrial Areas (km): Distance to the nearest industrial zone.
+ **Proximity to Industrial Areas (km)**:  Distance to the nearest industrial zone.
 
-Population Density (people/km²): Number of people per square kilometer in the region.
+ **Population Density (people/km²)**:  Number of people per square kilometer in the region.
 
-**Target Variable: Air Quality Levels**
 
-Good: Clean air with low pollution levels.
-Moderate: Acceptable air quality but with some pollutants present.
-Poor: Noticeable pollution that may cause health issues for sensitive groups.
-Hazardous: Highly polluted air posing serious health risks to the population.
+Target Variable: Air Quality Levels:
 
+    Good: Clean air with low pollution levels.
+
+    Moderate: Acceptable air quality but with some pollutants present.
+
+    Poor: Noticeable pollution that may cause health issues for sensitive groups.
+
+    Hazardous: Highly polluted air posing serious health risks to the population.
+
+---

@@ -39,7 +39,8 @@ This dataset focuses on air quality assessment across various regions.
 ---
 # Dataset 
 
-The dataset contains 5000 samples and captures critical environmental and demographic factors that influence pollution levels.
+The dataset contains 5000 samples and captures critical environmental and demographic factors that influence pollution levels. You can access the dataset [here](https://github.com/Sreeja0522/Data-Analytics-Project---Pollution-Dataset/blob/main/pollution_dataset.csv).
+
 
 **Key Features:**
 

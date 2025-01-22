@@ -42,13 +42,21 @@ The dataset contains 5000 samples and captures critical environmental and demogr
 **Key Features:**
 
 Temperature (°C): Average temperature of the region.
+
 Humidity (%): Relative humidity recorded in the region.
+
 PM2.5 Concentration (µg/m³): Fine particulate matter levels.
+
 PM10 Concentration (µg/m³): Coarse particulate matter levels.
+
 NO2 Concentration (ppb): Nitrogen dioxide levels.
+
 SO2 Concentration (ppb): Sulfur dioxide levels.
+
 CO Concentration (ppm): Carbon monoxide levels.
+
 Proximity to Industrial Areas (km): Distance to the nearest industrial zone.
+
 Population Density (people/km²): Number of people per square kilometer in the region.
 
 **Target Variable: Air Quality Levels**

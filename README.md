@@ -74,3 +74,18 @@ Target Variable: Air Quality Levels:
     Hazardous: Highly polluted air posing serious health risks to the population.
 
 ---
+
+# PACE stages
+
+I followed the PACE stages for the completion of the project, they are:
+
+**Planning:** Define the project goals, problem statement, and scope. Identify datasets, tools, and technologies required. Detailed process in the Google Colab [here](https://github.com/Sreeja0522/Data-Analytics-Project---Pollution-Dataset/blob/main/Plan%26Analyze1.ipynb).
+
+**Analysis:** Explore and preprocess the data. Perform feature engineering, handle missing values, and visualize key patterns. Detailed process in the Google Colab using R [here]((https://github.com/Sreeja0522/Data-Analytics-Project---Pollution-Dataset/blob/main/EDA_using_R.ipynb)).
+
+**Construction**: Select and implement suitable machine learning models. Train and validate the models using split datasets (e.g., train/test/validation).
+
+**Execution:** Deploy the model in a production environment. Monitor performance, collect feedback, and make iterative improvements.
+
+---
+

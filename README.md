@@ -83,9 +83,37 @@ I followed the PACE stages for the completion of the project, they are:
 
 **Analysis:** Explore and preprocess the data. Perform feature engineering, handle missing values, and visualize key patterns. Detailed process in the Google Colab using R  [here](https://github.com/Sreeja0522/Data-Analytics-Project---Pollution-Dataset/blob/main/EDA_using_R.ipynb).
 
-**Construction**: Select and implement suitable machine learning models. Train and validate the models using split datasets (e.g., train/test/validation).
+**Construction**: Select and implement suitable machine learning models. Train and validate the models using split datasets (e.g., train/test/validation) [here](https://github.com/Sreeja0522/Data-Analytics-Project---Pollution-Dataset/blob/main/Execution%26Accuracy.ipynb).
 
 **Execution:** Deploy the model in a production environment. Monitor performance, collect feedback, and make iterative improvements.
 
 ---
+**1. Prediction Accuracy & Model Performance**
 
+XGBoost and Random Forest performed the best, achieving high accuracy (~96%) in predicting air quality levels.
+Logistic Regression and SVM struggled, likely due to the complex and non-linear relationships in air pollution data.
+
+**2. Key Factors Affecting Air Quality**
+
+Industrial Proximity: Areas closer to industries exhibited poorer air quality due to emissions from manufacturing and energy production.
+Population Density: Highly populated regions experienced worse air quality, likely due to vehicular emissions and urban congestion.
+Meteorological Conditions:
+Higher temperatures correlated with increased pollutant concentration, possibly due to atmospheric reactions.
+Humidity levels played a role in air quality fluctuations, affecting pollutant dispersion and chemical interactions.
+
+**3. Areas of Concern & Recommendations** 
+
+High-Risk Urban & Industrial Zones: Regions with dense population and industrial activity need stricter regulations and emission control measures.
+Policy Recommendations:
+Strengthen industrial emission standards and enforce compliance.
+Promote public transport and emission-reducing measures (e.g., electric vehicles).
+Implement real-time air quality monitoring and alert systems.
+Community Interventions:
+Educate citizens on reducing personal emissions (e.g., carpooling, reducing waste).
+Increase green spaces to absorb pollutants and improve air quality.
+
+**4. Future Improvements**
+
+Refine predictive models by incorporating additional environmental and economic factors.
+Use real-time sensor data for dynamic monitoring.
+Collaborate with local governments to implement data-driven pollution control strategies.
